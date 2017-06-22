@@ -10,4 +10,6 @@
 
 @interface SWTHttp : NSObject
 
+-(void)sayHello:(NSString *)msg;
+
 @end

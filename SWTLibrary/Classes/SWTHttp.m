@@ -10,4 +10,8 @@
 
 @implementation SWTHttp
 
+-(void)sayHello:(NSString *)msg{
+    NSLog(@"========%@",msg);
+}
+
 @end

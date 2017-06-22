@@ -7,6 +7,7 @@
 //
 
 #import "SWTViewController.h"
+#import <SWTLibrary/SWTHttp.h>
 
 @interface SWTViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    SWTHttp *http=[[SWTHttp alloc] init];
+    [http sayHello:@"罗强你好！"];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

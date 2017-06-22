@@ -1,0 +1,27 @@
+{
+  "name": "SWTLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of SWTLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/RobertLuo/SWTLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "RobertLuo": "65605484@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/RobertLuo/SWTLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SWTLibrary/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ]
+  }
+}

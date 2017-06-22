@@ -1,0 +1,6 @@
+framework module Pods_SWTLibrary_Tests {
+  umbrella header "Pods-SWTLibrary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

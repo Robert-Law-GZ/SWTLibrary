@@ -1,0 +1,6 @@
+framework module SWTLibrary {
+  umbrella header "SWTLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
