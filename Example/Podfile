@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SWTLibrary_Example' do
+  pod 'SWTLibrary', :path => '../'
+
+  target 'SWTLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
